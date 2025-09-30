@@ -1,4 +1,8 @@
 #!/bin/sh
+# Fix locale warnings
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
+
 # Load nvm and use node
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"

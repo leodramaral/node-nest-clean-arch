@@ -7,7 +7,7 @@ export interface FacebookAuthentication {
   ) => Promise<FacebookAuthenticationResult>;
 }
 
-type FacebookAuthenticationParams = {
+export type FacebookAuthenticationParams = {
   token: string;
 };
 
